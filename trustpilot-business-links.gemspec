@@ -16,14 +16,12 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- spec/*`.split("\n")
   s.require_paths = ['lib']
 
-  s.required_ruby_version = '>= 2.3.0'
-
-  s.add_dependency 'openssl', '~> 2.1'
+  s.required_ruby_version = '>= 2.1.0'
 
   s.add_development_dependency 'pry', '~> 0.11'
   s.add_development_dependency 'ci_reporter', '~> 2.0'
   s.add_development_dependency 'ci_reporter_rspec', '~> 1.0'
-  s.add_development_dependency 'rack-test', '~> 0.7'
+  s.add_development_dependency 'rack-test', '~> 0.5'
   s.add_development_dependency 'rake', '~> 12.2'
   s.add_development_dependency 'rspec', '~> 3.6'
   s.add_development_dependency 'rspec-its', '~> 1.2'
