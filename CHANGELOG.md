@@ -1,5 +1,7 @@
 # Next version
 - Your contribution!
+
+# Version 1.1.0
 - Remove `openssl` gem dependency
 - Lower minimal ruby version to 2.1.0
 
