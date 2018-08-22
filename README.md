@@ -1,14 +1,14 @@
-[![Build Status](https://travis-ci.org/trainline-eu/trustpilot-business-links.svg?branch=master)](https://travis-ci.org/trainline-eu/trustpilot-business-links)
+# Trustpilot Business Links generator gem [![Build Status](https://travis-ci.org/trainline-eu/trustpilot-business-links.svg?branch=master)](https://travis-ci.org/trainline-eu/trustpilot-business-links) [![Gem Version](https://badge.fury.io/rb/trustpilot-business-links.svg)](http://badge.fury.io/rb/trustpilot-business-links)
 
 Generate the [Trustpilot Business Generated Links](https://support.trustpilot.com/hc/en-us/articles/115002337108-Trustpilot-s-Business-Generated-Links-) in ruby.
 
-# Requirements
+## Requirements
 - Ruby 2.3.0 or newer
 
-# Installation
+## Installation
 `gem install trustpilot-business-links`
 
-# Usage
+## Usage
 ~~~ruby
 require 'json'
 require 'trustpilot-business-links'
@@ -29,15 +29,18 @@ encrypted_payload = trustpilot_bgl.encrypt(review_payload.to_json)
 puts "https://www.trustpilot.com/evaluate-bgl/www.example.com?p=#{encrypted_payload}"
 ~~~
 
-# Test
+## Test
 ~~~bash
 make test
 ~~~
 
-100% of the source code should be covered.
+100% of the source code should be covered by tests.
 
-# Contributing
+## Contributing
 You are warmly welcome to contribute to the project!
 
-# Documentation
+## Documentation
 * https://support.trustpilot.com/hc/en-us/articles/115004145087--Business-Generated-Links-for-developers-
+
+## License
+The projected is licensed under the MIT license. See [LICENSE.md](LICENSE.md).
