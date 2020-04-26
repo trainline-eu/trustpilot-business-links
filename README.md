@@ -3,7 +3,9 @@
 Generate the [Trustpilot Business Generated Links](https://support.trustpilot.com/hc/en-us/articles/115002337108-Trustpilot-s-Business-Generated-Links-) in ruby.
 
 ## Requirements
-Ruby 2.1.0 or newer. It probably works on lower versions but has not been tested and is not supported.
+Ruby 2.1.0 or newer.
+
+This gem is tested against [supported versions of Ruby](https://www.ruby-lang.org/en/downloads/branches/) and no support will be provided for EOL Ruby releases.
 
 ## Installation
 `gem install trustpilot-business-links`
